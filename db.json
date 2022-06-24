@@ -7,12 +7,12 @@
     },
     {
       "content": "state changes are made with actions",
-      "important": false,
+      "important": true,
       "id": 2
     },
     {
       "content": "hello note",
-      "important": false,
+      "important": true,
       "id": 3
     },
     {
