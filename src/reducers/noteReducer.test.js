@@ -20,7 +20,7 @@ describe('noteReducer', () => {
     expect(newState.map(s => s.content)).toContainEqual(action.payload.content)
   })
 
-  test('returns new state with action notes/toggleImportanceOf', () => {
+  test('returns new state with action notes/toggleImportance', () => {
     const state = [
       {
         content: 'the app state is in redux store',
@@ -34,7 +34,7 @@ describe('noteReducer', () => {
       }]
   
     const action = {
-      type: 'notes/toggleImportanceOf',
+      type: 'notes/toggleImportance',
       payload: 2
     }
   
